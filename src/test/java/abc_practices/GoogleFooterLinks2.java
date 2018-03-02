@@ -16,7 +16,7 @@ public class GoogleFooterLinks2 {
 		driver.findElement(By.linkText("Privacy")).click();
 
 		Thread.sleep(2000);
-		Assert.assertEquals(true, driver.getPageSource().contains("Privacy"));
+		Assert.assertEquals(true, driver.getPageSource().contains("Privacyuu"));
 		//Thread.sleep(2000);
 		//driver.close();
 
